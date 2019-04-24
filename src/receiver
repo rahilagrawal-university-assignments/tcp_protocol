@@ -1,0 +1,4 @@
+#!/bin/bash
+
+clear;
+java Receiver 1999 file_r.pdf;

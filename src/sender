@@ -1,0 +1,12 @@
+#!/bin/bash
+
+clear;
+# test 0
+# java Sender 127.0.0.1 1999 test0.pdf 500 100 4 0.1 0 0 0 0 0 0 100;
+java Sender 127.0.0.1 1999 test0.pdf 500 100 4 0.3 0 0 0 0 0 0 100;
+# test 1
+# java Sender 127.0.0.1 1999 test1.pdf 500 50 2 0.5 0 0 0 0 0.2 1000 300;
+# java Sender 127.0.0.1 1999 test1.pdf 500 50 4 0.5 0 0 0 0 0.2 1000 300;
+# java Sender 127.0.0.1 1999 test1.pdf 500 50 6 0.5 0 0 0 0 0.2 1000 300;
+# test 2
+# java Sender 127.0.0.1 1999 test2.pdf 500 50 4 0.1 0.1 0.1 0.1 4 0 0 300;

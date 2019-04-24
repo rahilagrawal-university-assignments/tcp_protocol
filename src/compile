@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm *.class &> /dev/null;
+javac *.java;
